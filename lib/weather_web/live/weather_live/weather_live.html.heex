@@ -1,0 +1,20 @@
+<div class="grid grid-cols-12 grid-rows-3 gap-x-4 gap-y-6">
+        <.location_card 
+            span="col-span-4" 
+            location={@data.location} 
+            timezone={@data.weather.timezone} />
+        <.daily_forecast_bar 
+            bar_span="col-span-8"
+            card_span="col-span-1"
+            daily={@data.weather.daily} 
+            conversion={@conversion} />
+        <.temperature_card
+            span="col-span-3"
+            tab={@tab} 
+            temp={@current.temp} 
+            feels_like={@current.feels_like} 
+            conversion={@conversion} />
+        <.celestial_card span="col-span-2" label="Sun" celestial={@current.sun} />
+        <.celestial_card span="col-span-2" label="Moon" celestial={@current.moon} />
+        <.moonphase_card span="col-span-2" label="Moonphase" moon_phase={@current.moon_phase} />
+</div>

@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Custom TailwindCSS */
+
+@layer components {
+    .bar {
+        @apply grid grid-cols-8 grid-rows-1 gap-x-4;
+    }
+}
