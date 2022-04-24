@@ -1,5 +1,7 @@
 # Weather
 
+A simple weather dashboard, playing with Phoenix LiveView.
+
 ![alt text](weather_dash.jpeg "Weather Dashboard")
 
 You will need to obtain an API for OpenWeatherMap.
@@ -22,4 +24,4 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
-# weather
+
