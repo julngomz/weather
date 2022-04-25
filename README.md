@@ -4,7 +4,7 @@ A simple weather dashboard, playing with Phoenix LiveView.
 
 ![alt text](weather_dash.jpeg "Weather Dashboard")
 
-You will need to obtain an API for OpenWeatherMap.
+You will need to obtain an API Key from OpenWeatherMap.
 
 To start your Phoenix server:
 
